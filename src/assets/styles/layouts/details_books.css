@@ -1,0 +1,105 @@
+.box_details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.box__details-respon {
+  display: flex;
+  justify-content: space-around;
+}
+.box__container-book {
+  width: 28%;
+}
+
+.box__content-image-details{
+  width: 100%;
+}
+
+.box__buy {
+  margin: 3% auto;
+  padding: 4%;
+  width: 70%;
+  background-color: black;
+  font-size: 1.3vw;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box__slide {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  margin: 0 2%;
+}
+
+.box__slide-icon {
+  background-color: rgb(133, 45, 63);
+  height: 10%;
+}
+.box__container-description-book {
+  background-color: rgb(199, 152, 64);
+  font-size: 1.5vw;
+  padding: 2% 2%;
+  width: 55%;
+  height: 100%;
+}
+
+.other-img {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.container_svg {
+  width: 60%;
+}
+.container_gif {
+  width: 35%;
+
+}
+
+.image_svg {
+  width: 100%;
+}
+
+.img_gif {
+  width: 100%;
+  height: 150px;
+}
+
+.box__title-book {
+  margin: 0 10%;
+  text-align: center;
+  background-color: rgb(238, 238, 93);
+  border-radius: 10px;
+}
+
+.box__name-autor {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2vw;
+  text-decoration: underline;
+  padding-left: 5%;
+  color: white;
+}
+
+.box__summary {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.box__link-book {
+  background-color: black;
+}
+
+.container-img_directionArt {
+  margin: 1% auto;
+  text-align: center;
+}
+
+.img_directionArt{
+  width: 95%;
+  height: 25em;
+}
