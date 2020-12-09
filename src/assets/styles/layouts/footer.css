@@ -13,7 +13,7 @@
 .flex-footer {
   margin: 1% auto;
   width: 80%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: orange;
@@ -43,6 +43,7 @@
   font-family: Piedra, sans-serif;
   font-size: 2.5em;
 }
+
 .container_footer-net {
   color: white;
   margin: 1% auto 1% auto;

@@ -61,6 +61,7 @@
   position: relative;
   display: inline-block;
   font-size: 1.4em;
+  text-align: justify;
 }
 
 .box__name {
@@ -97,10 +98,12 @@
 }
 
 .mask {
- mask-size: 100%;
+  mask-size: 100%;
   -webkit-mask-image: url(../../images/mask-alpha.png);
+  mask-image: url(../../images/mask-alpha.png);
   mask-mode: alpha;
 }
+
 /* Destacar enlace al pasar mouse */
 
 .box__container a {

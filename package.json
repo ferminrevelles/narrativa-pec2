@@ -7,7 +7,7 @@
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel src/index.html",
-    "parcel:build": "parcel build src/index.html",
+    "parcel:build": "parcel build stylelint src/index.html",
     "clean": "rimraf dist .cache .cache-loader",
     "stylelint": "stylelint src/**/*.css",
     "test": "echo \"Error: no test specified\" && exit 1"

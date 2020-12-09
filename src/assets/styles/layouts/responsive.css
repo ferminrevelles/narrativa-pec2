@@ -49,7 +49,6 @@
   .header-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: white;
     flex-wrap: wrap;
   }
@@ -84,71 +83,72 @@
   .header__img3 {
     width: 10em;
   }
-  @keyframes logoBook{
-    0%{
+
+  @keyframes logoBook {
+    0% {
       opacity: 0;
-      top: 0em;
-      left: 0%;
-   
-   
     }
+
     25% {
       opacity: 0.5;
       left: 5%;
     }
   
-    50%{
+    50% {
       opacity: 0.9;
       left: 15%;
-     
     }
-    100%{
+
+    100% {
       opacity: 1;
       left: 20%;
-      top: 0em;
-   
     }
   }
   
-  @keyframes logoGlasses{
-    0%{
+  @keyframes logoGlasses {
+    0% {
       opacity: 0;
       left: 10%;
     }
+
     25% {
       opacity: 0.5;
       left: 15%;
     }
   
-    50%{
+    50% {
       opacity: 9;
       left: 19%;
     }
-    100%{
+
+    100% {
       left: 13%;
       top: 13em;
     }
   }
+
   @keyframes logoText {
-    0%{
+    0% {
       opacity: 0;
       left: 13%;
       top: 19em;
     }
+
     25% {
       opacity: 0.2;
+    }
 
-    }
-    50%{
+    50% {
       opacity: 0.7;
-;
     }
-    100%{
+
+    100% {
       opacity: 1;
       left: 13%;
       top: 19em;
     }
   }
+
   .header__img {
     position: relative;
     margin: 0% 0% 0% -5%;
@@ -172,9 +172,10 @@
     font-size: 2.5em;
   }
 
-  .footer_title{
+  .footer_title {
     font-size: 1.5em;
   }
+
   /* estilo de párrafo de descripción de lo que es la narrativa */
 
   .box {
@@ -187,10 +188,6 @@
     background-color: lightblue;
     width: 90%;
     font-size: 3.5em;
-  }
-
-  .box__text {
-    font-size: 1.8em;
   }
 
   /* colocación de div en modo vertical contenido de index.html */
@@ -206,7 +203,7 @@
     left: 0;
     font-size: 2em;
     text-align: justify;
-   }
+  }
 
   /* Estilo para categorías */
 
@@ -226,7 +223,7 @@
     margin-top: 4%;
   }
 
-  .box__content-imageLibro{
+  .box__content-imageLibro {
     height: 25em;
   }
 
@@ -234,10 +231,10 @@
     width: 20%;
   }
 
-   /* Estilo para details */
+  /* Estilo para details */
 
   .box__details-respon {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .box__container-book-respon {
@@ -269,7 +266,7 @@
 
   .container_gif,
   .container_svg {
-   height: 20vw;
+    height: 20vw;
   }
 
   .img_gif {
@@ -284,11 +281,7 @@
     font-size: 1em;
   }
 
-
   .box__slide {
     font-size: 5em;
-    
   }
-
-
 }

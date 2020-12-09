@@ -8,11 +8,12 @@
   display: flex;
   justify-content: space-around;
 }
+
 .box__container-book {
-  width: 28%;
+  width: 35%;
 }
 
-.box__content-image-details{
+.box__content-image-details {
   width: 100%;
 }
 
@@ -37,16 +38,17 @@
   background-color: rgb(133, 45, 63);
   height: 10%;
 }
+
 .box__container-description-book {
   background-color: rgb(199, 152, 64);
   font-size: 1.5vw;
   padding: 2% 2%;
   width: 55%;
-  height: 100%;
+  text-align: justify;
 }
 
 .other-img {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 2%;
@@ -55,9 +57,9 @@
 .container_svg {
   width: 60%;
 }
+
 .container_gif {
   width: 35%;
-
 }
 
 .image_svg {
@@ -99,7 +101,7 @@
   text-align: center;
 }
 
-.img_directionArt{
+.img_directionArt {
   width: 95%;
   height: 25em;
 }
