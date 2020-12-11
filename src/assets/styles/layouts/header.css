@@ -209,9 +209,9 @@ a:active {
 /* Aquí se define el estilo para el menú horizontal "menú navegador" */
 
 .header__menu-nav {
-  flex: 0 0 50%;
   position: relative;
   left: 20%;
+  margin-top: 10em;
 }
 
 /* Define donde situar el menú de navegación su comportamiento, estilo y márgenes */
