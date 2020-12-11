@@ -116,11 +116,12 @@ a:active {
   }
 
   50% {
-    opacity: 9;
+    opacity: 0.9;
   }
 
   100% {
     left: 13%;
+    opacity: 1;
   }
 }
 
@@ -180,7 +181,7 @@ a:active {
   0% { background-color: orange; }
   30% { background-color: red; }
   60% { background-color: blue; }
-  100% { background-color: none; }
+  100% { background-color: transparent; }
 }
 
 @keyframes bounceIn {
