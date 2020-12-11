@@ -43,18 +43,7 @@
 				</div>
 			</nav>
 		</div>
-		<!-- script para menú hamburguesa -->	
-		<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "nav__menu") {
-				x.className += " responsive";
-			} else {
-				x.className = "nav__menu";
-			}
-		}
-		</script>
-		<noscript> <p> El sistema no soporta script </p> </noscript>
+
 		<!--Aquí se define el título de la web-->
 		<div class="header_title">
 			<p>Portal de literatura narrativa</p>
@@ -146,6 +135,17 @@
 			<p><em class="far fa-copyright"></em>Fotografías <a href="https://pixabay.com" class="enlaces">Pixabay</a>, <a href="https://https://www.pinterest.es/" class="enlaces">Pinterest</a>, <a href="https://unsplash.com" class="enlaces">Unsplash</a> y <a href="https://wikipedia.org" class="enlaces">Wikipedia</a> </p>
 			<p>Actividad realizada por Fermín Martínez Revelles, para la asignatura "Herramientas <abbr title="HyperText Markup Language" lang="en">HTML</abbr> y <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>".<br> Primer semestre del curso 2020-2021</p>
 		</div>
-    </footer>
+	</footer>
+	<!-- script para menú hamburguesa -->	
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "nav__menu") {
+				x.className += " responsive";
+			} else {
+				x.className = "nav__menu";
+			}
+		}
+		</script>
     </body>
 </html>
