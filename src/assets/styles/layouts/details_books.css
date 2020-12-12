@@ -55,6 +55,10 @@
   width: 100%;
 }
 
+.container_svg {
+  width: 60%;
+}
+
 .container_gif {
   width: 35%;
 }
