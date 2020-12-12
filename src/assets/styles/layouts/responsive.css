@@ -2,8 +2,7 @@
 
 /* Definimos los cambios para responsive teléfonos en posición apaisada a tables en vertical */
 
-@media screen and (max-width: 750px) {
-  /* Transición menú de navegación a menú hamburguesa */
+@media screen and (max-width: 767px) {
 
   /* poner los div de la cabecera en modo vertical */
 
@@ -14,6 +13,14 @@
 
   .size_menu {
     font-size: 1.5em;
+  }
+
+  .containerMenu__buttom--space {
+    margin: 2% 2%;
+  }
+
+  .containerMenu__navigate--link {
+    margin: 0 0;
   }
 
   .header-container {

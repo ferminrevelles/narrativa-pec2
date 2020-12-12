@@ -25,6 +25,11 @@
   font-size: 1.3vw;
   border-radius: 5px;
   text-align: center;
+  transition: background-color 1s ease-out;
+}
+
+.box__buy:hover {
+  background-color: red;
 }
 
 .box__slide {
