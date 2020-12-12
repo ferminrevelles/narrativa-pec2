@@ -247,6 +247,10 @@
     width: 35%;
   }
 
+  .image_svg {
+    width: 60%;
+  }
+
   .img_gif {
     height: 100%;
   }
