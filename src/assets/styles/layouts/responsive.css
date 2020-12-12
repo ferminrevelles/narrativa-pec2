@@ -239,7 +239,11 @@
   }
 
   .container_svg {
-    width: auto;
+    width: 60%;
+  }
+  
+  .container_gif {
+    width: 35%;
   }
 
   .img_gif {
