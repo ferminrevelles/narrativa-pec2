@@ -55,8 +55,17 @@
   width: 100%;
 }
 
-.img_gif {
+.container_gif {
+  width: 35%;
+}
+
+.container_svg {
   width: 60%;
+}
+
+.img_gif {
+  width: 100%;
+  height: 10em;
 }
 
 .box__title-book {
