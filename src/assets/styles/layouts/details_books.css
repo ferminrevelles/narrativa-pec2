@@ -55,16 +55,8 @@
   width: 100%;
 }
 
-.container_svg {
-  width: auto;
-}
-
-.container_gif {
-  width: 35%;
-}
-
 .image_svg {
-  width: 100%;
+  width: 60%;
 }
 
 .img_gif {
