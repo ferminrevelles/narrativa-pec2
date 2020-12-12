@@ -57,10 +57,12 @@
 
 .container_gif {
   width: 35%;
+  height: 10em;
 }
 
 .container_svg {
   width: 60%;
+  height: 10em;
 }
 
 .img_gif {

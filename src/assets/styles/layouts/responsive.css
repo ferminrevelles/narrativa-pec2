@@ -238,6 +238,10 @@
     height: 20vw;
   }
 
+  .other-img {
+    width: 100%;
+  }
+
   .container_svg {
     width: 40%;
   }
