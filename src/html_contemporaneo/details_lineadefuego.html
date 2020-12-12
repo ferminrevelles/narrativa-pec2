@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Narrativa como género literario"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="../assets/styles/main.css" />
         <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Source+Serif+Pro&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 	</head>
@@ -31,32 +32,36 @@
 				<div class="header__img3-ani"><img class="header__img3" src="../assets/images/texto.png" alt="" /></div>
 			</a>
 		</div>
-		<!--Aquí se define el menú de navegación-->
-		<div class="header__menu-nav">
-			<nav>
-				<div class="nav__menu" id="myTopnav">
-					<a class="nav__menu-enlace respon " href="../index.html">Portada</a>
-					<a class="nav__menu-enlace respon activo" href="../narrativa_contemporanea.html">Narrativa contemporánea</a>
-					<a class="nav__menu-enlace respon" href='../narrativa_ayer.html'>Narrativa del ayer</a>
-					<a class="nav__menu-enlace icon" href="javascript:void(0);" onclick="myFunction()"><em class="fa fa-bars"></em></a>
-				</div>
-			</nav>
-		</div>
-		<!-- script para menú hamburguesa -->	
-		<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "nav__menu") {
-				x.className += " responsive";
-			} else {
-				x.className = "nav__menu";
-			}
-		}
-		</script>
-		<noscript> <p> El sistema no soporta script </p> </noscript>
 		<!--Aquí se define el título de la web-->
 		<div class="header_title">
 			<p>Portal de literatura narrativa</p>
+		</div>
+
+		<div class="header__menu-nav">
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- Brand -->
+				<a class="navbar-brand size_menu" href="#">Menú</a>
+			  
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler size_menu" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			  
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse " id="collapsibleNavbar">
+				  <ul class="navbar-nav">
+					<li class="nav-item containerMenu__buttom--space">
+					  <a class="nav-link containerMenu__navigate--link" href="../index.html">Portada</a>
+					</li>
+					<li class="nav-item containerMenu__buttom--space">
+					  <a class="nav-link containerMenu__navigate--link activo" href="../narrativa_contemporanea.html">Narrativa Contemporánea</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link containerMenu__navigate--link" href="../narrativa_ayer.html">Narrativa del ayer</a>
+					</li>
+				  </ul>
+				</div>
+			  </nav>
 		</div>
 	</header>
 
@@ -134,5 +139,8 @@
 		<p>Actividad realizada por Fermín Martínez Revelles, para la asignatura "Herramientas <abbr title="HyperText Markup Language" lang="en">HTML</abbr> y <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>".<br> Primer semestre del curso 2020-2021</p>
 	</div>
 	</footer>
+	 <!-- script para menú -->	
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </body>
 </html>
