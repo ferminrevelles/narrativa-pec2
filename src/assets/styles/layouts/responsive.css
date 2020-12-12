@@ -239,6 +239,14 @@
     margin: 2% 1%;
   }
 
+  .container_svg {
+    width: 60%;
+  }
+  
+  .container_gif {
+    width: 35%;
+  }
+
   .img_gif {
     height: 100%;
   }
