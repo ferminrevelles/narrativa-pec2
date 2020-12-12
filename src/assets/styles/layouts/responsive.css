@@ -236,11 +236,11 @@
   .container_gif,
   .container_svg {
     height: 20vw;
+    margin: 2% 1%;
   }
 
   .container_svg {
     width: 60%;
-    margin: 2% 2%;
   }
   
   .container_gif {
